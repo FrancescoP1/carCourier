@@ -1,35 +1,9 @@
 html{
     font-size: 16px;
 }
-body{
-    background-color: white;
-}
-
-
 h1{
     font-size: 4rem;
-    color:var(--cl-marcare);
-    text-shadow:0px 0px 1px black,0px 0px 2px black, 0px 0px 4px white,0px 0px 4px white,0px 0px 4px white;
 }
-
-h2{
-    font-size: 3rem;
-    color: black;
-}
-
-h3{
-    font-size: 2 rem;
-    color: black;
-
-}
-
-.button{
-    background-color: red; 
-    border: none;
-    color: black;
-    padding: 1rem 2rem;
+#titlu{
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;
 }
