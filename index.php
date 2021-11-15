@@ -1,11 +1,7 @@
 <html>
 
-    <style>
-        <?php
-            include 'resurse/css/general.css';
-        ?>
-    </style>
-
+    
+    <link rel="stylesheet" href="./resurse/css/general.css" type="text/css"/>
     <?php
         //Get Heroku ClearDB connection information
         $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
@@ -81,8 +77,12 @@
                 </li>
             </ul>
 
-            <button><a href = "schemacc.html">Schema bazei de date</a></button>
-            <button><a href = "">GitHub</a></button>
+            <button class = "buton">
+                <a href = "schemacc.html">Schema bazei de date</a>
+            </button>
+            <button class = "buton">
+                <a href = "">GitHub</a>
+            </button>
             
        </div>
     </body>
