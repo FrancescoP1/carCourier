@@ -4,7 +4,7 @@ html{
 
 
 body{
-    background-image:linear-gradient(transparent 20%, transparent 20%, black 80%, transparent 30%, transparent 30%, black 50%), url("./imagini/background.jpg");
+    background-image:url("../imagini/backgound.jpg");
     background-repeat: no-repeat;
 
     background-attachment: fixed;
