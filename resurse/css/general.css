@@ -10,10 +10,7 @@ body{
     background-attachment: fixed;
 
     background-size: cover;
-    padding-left: var(--body-padding);
-    padding-right: var(--body-padding);
-    padding-top: 0;
-    padding-bottom: 0;
+    
 
     min-width: 500px;
 }
