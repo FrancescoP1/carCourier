@@ -71,7 +71,7 @@
             </li>
         </ul>
 
-        <a href = "schemacc.php">Schema bazei de date</a>
+        <a href = "schemacc.html">Schema bazei de date</a>
 
     </body>
 
