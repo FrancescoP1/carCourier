@@ -22,8 +22,8 @@
     </head>
 
     <body>
-       <div id = "page_grid">
-        <h1>Car Courier</h1>
+        <h1 id = "titlu">Car Courier</h1>
+        <div id = "page_grid">
             <h2>Prezentare aplicatie web</h2>
             <p>Car courier este o companie de transport national de vehicule.</p>
             <h6>Caracteristici ale aplicatiei web:</h6>
