@@ -76,28 +76,31 @@
                     Pentru a facilita utilizarea site-ului, va fi implementat si un navbar cu diferite optiuni (comezi, despre companie, profilul meu, etc)
                 </li>
             </ul>
+            <div>
+                <h2>Descriere functionalitate:</h2>
+                <p1 style = "font-size:16px">
+                    Utilizatorii autentificati, vor putea sa comande un transport, prin intermediul aplicatiei. Ei trebuie sa introduca datele masinii,
+                    sa selecteze locatia de preluare si de livrare. Aplicatia va calcula costul transportului, alegand din soferii disponibili, tinand cont
+                    de consumul mediu al masinii soferului si de distanta dintre cele doua locatii (un exemplu de formula: pret = 2 * (salariu_unitar * distanta + consum * distanta / 100)).
+                    Aplicatia va desemna automat un sofer. Fiecare masina transportata va fi introdusa in baza de date, daca nu exista deja.
 
-            <h2>Descriere functionalitate:</h2>
-            <p1 style = "font-size:32px">
-                Utilizatorii autentificati, vor putea sa comande un transport, prin intermediul aplicatiei. Ei trebuie sa introduca datele masinii,
-                sa selecteze locatia de preluare si de livrare. Aplicatia va calcula costul transportului, alegand din soferii disponibili, tinand cont
-                de consumul mediu al masinii soferului si de distanta dintre cele doua locatii (un exemplu de formula: pret = 2 * (salariu_unitar * distanta + consum * distanta / 100)).
-                Aplicatia va desemna automat un sofer. Fiecare masina transportata va fi introdusa in baza de date, daca nu exista deja.
-
-            </p1>
-
-            <p1 style = "font-size:32px">
-                Administratorii vor avea control absolut asupra utilizatorilor normali, putand sa le schimbe detalii in comenzi (locatii, masini), sa 
-                ii baneze, sa le stearga contul, sa anuleze comenzi, sa ofere comenzi gratis, etc.
-                Ei pot sa adauge din interfata noi soferi, noi masini ale companiei. Pot sa concedieze soferi, sa stearga din masinile companiei, etc.
-                Ei au de asemenea optiunea de generare a salariilor angajatilor (formula: salariu_unitar*distanta_totala; distanta totala reprezinta
-                suma tuturor distantelor parcurse de catre un sofer, in cadrul comenzilor din luna curenta.)
-            </p1>
-
-            <p1 style = "font-size:32px">
-                Vizitatorii, pot sa vizioneze site-ul, sa citeasca descrierea sa, sa vada imaginile. In momentul in care vor incerca sa calculeze un 
-                transport ori sa lanseze o comanda, vor fi promptati sa se inregistreze.
-            </p1>
+                </p1>
+                <br>
+                <p1 style = "font-size:16px">
+                    Administratorii vor avea control absolut asupra utilizatorilor normali, putand sa le schimbe detalii in comenzi (locatii, masini), sa 
+                    ii baneze, sa le stearga contul, sa anuleze comenzi, sa ofere comenzi gratis, etc.
+                    Ei pot sa adauge din interfata noi soferi, noi masini ale companiei. Pot sa concedieze soferi, sa stearga din masinile companiei, etc.
+                    Ei au de asemenea optiunea de generare a salariilor angajatilor (formula: salariu_unitar*distanta_totala; distanta totala reprezinta
+                    suma tuturor distantelor parcurse de catre un sofer, in cadrul comenzilor din luna curenta.)
+                </p1>
+                <br>
+                <p1 style = "font-size:16px">
+                    Vizitatorii, pot sa vizioneze site-ul, sa citeasca descrierea sa, sa vada imaginile. In momentul in care vor incerca sa calculeze un 
+                    transport ori sa lanseze o comanda, vor fi promptati sa se inregistreze.
+                </p1>
+                <br>
+            </div>
+            
 
 
             <button class = "buton">
