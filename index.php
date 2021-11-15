@@ -70,6 +70,9 @@
                 Pentru a facilita utilizarea site-ului, va fi implementat si un navbar cu diferite optiuni (comezi, despre companie, profilul meu, etc)
             </li>
         </ul>
+
+        <a href = "schemacc.php">Schema bazei de date</a>
+
     </body>
 
 </html>
