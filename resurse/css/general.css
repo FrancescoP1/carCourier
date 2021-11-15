@@ -4,16 +4,31 @@ html{
 
 
 body{
-    background-image:url("../imagini/backgound.jpg");
+    --culoare-negru:#070707;
+	--culoare-alb:rgb(233, 225, 229);
+	--culoare-gri:rgba(151, 146, 149, 0.5);
+    --cl-marcare: #16a085;
+    --cl-marcare2: #e70f0f;
+    --cl-marcare3: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 0;
+    --body-padding: 3rem;
+    --padding-intern: 4%;
+
+    background-image:linear-gradient(transparent 20%, transparent 20%, black 80%, transparent 30%, transparent 30%, black 50%), url("../imagini/backgound.jpg");
     background-repeat: no-repeat;
 
     background-attachment: fixed;
 
     background-size: cover;
-    
+    padding-left: var(--body-padding);
+    padding-right: var(--body-padding);
+    padding-top: 0;
+    padding-bottom: 0;
 
     min-width: 500px;
 }
+
 
 
 h1{
