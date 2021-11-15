@@ -1,4 +1,11 @@
 <html>
+
+    <style>
+        <?php
+            include 'resurse/css/general.css';
+        ?>
+    </style>
+
     <?php
         //Get Heroku ClearDB connection information
         $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
@@ -10,8 +17,10 @@
         $query_builder = TRUE;
         // Connect to DB
         $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
-        
     ?>
+
+
+
     <head>
 
     </head>
@@ -72,7 +81,7 @@
         </ul>
 
         <a href = "schemacc.html">Schema bazei de date</a>
-
+        <a href = "">GitHub</a>
     </body>
 
 </html>
