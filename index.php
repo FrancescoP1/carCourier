@@ -66,6 +66,9 @@
                 Aplicatia va calcula distanta dintre cele 2 locatii si va verifica soferii disponibili, iar in functie de aceste doua aspecte
                 ii va afisa clientului un cost. Utilizatorul poate sa accepte sau sa refuze, daca accepta se lanseaza comanda.
             </li>
+            <li>
+                Pentru a facilita utilizarea site-ului, va fi implementat si un navbar cu diferite optiuni (comezi, despre companie, profilul meu, etc)
+            </li>
         </ul>
     </body>
 
