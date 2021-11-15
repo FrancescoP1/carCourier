@@ -82,7 +82,8 @@
             </ul>
 
             <button><a href = "schemacc.html">Schema bazei de date</a></button>
-            <a href = "">GitHub</a>
+            <button><a href = "">GitHub</a></button>
+            
        </div>
     </body>
 
