@@ -12,8 +12,14 @@
         $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
         
     ?>
-    <h1>Car Courier</h1>
-    <h2>Prezentare aplicatie web</h2>
+    <head>
+
+    </head>
+    
+    <body>
+        <h1>Car Courier</h1>
+        <h2>Prezentare aplicatie web</h2>
+    </body>
 
 </html>
 
