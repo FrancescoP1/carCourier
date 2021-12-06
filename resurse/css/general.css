@@ -1,9 +1,5 @@
-html{
-    font-size: 16px;
-}
-h1{
-    font-size: 4rem;
-}
-#titlu h1{
-    text-align: center;
+.main-form{
+    width: 50%;
+    margin: auto;
+    position:center;
 }

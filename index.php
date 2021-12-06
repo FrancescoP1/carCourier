@@ -1,28 +1,36 @@
+<?php
+    session_start();
+    include ("resurse/includes/mysqliconnect.php");
+    include ("functions.php");
+    //$user_data = check_login($con);
+?>
+
 <html>
 
     
-    <link rel="stylesheet" href="./resurse/css/general.css" type="text/css"/>
-    <?php
-        //Get Heroku ClearDB connection information
-        $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-        $cleardb_server = $cleardb_url["host"];
-        $cleardb_username = $cleardb_url["user"];
-        $cleardb_password = $cleardb_url["pass"];
-        $cleardb_db = substr($cleardb_url["path"],1);
-        $active_group = 'default';
-        $query_builder = TRUE;
-        // Connect to DB
-        $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
-    ?>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+   
+    <link rel = "stylesheet" href = "../css/general.css">
 
-
+    
+    <?php include("resurse/includes/navbar.php")?>
 
     <head>
 
     </head>
 
     <body>
-        <h1 id = "titlu">Car Courier</h1>
+        <h1>Bine ai venit 
+            <?php 
+                $user_data = isLoggedIn($con);
+                if($user_data){
+                    echo $user_data['prenume'];
+                }
+            ?>!
+            
+        </h1>
         <div id = "page_grid">
             <h2>Prezentare aplicatie web</h2>
             <p>Car courier este o companie de transport national de vehicule.</p>
