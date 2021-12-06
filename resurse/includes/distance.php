@@ -1,7 +1,7 @@
 <?php
    
     function getDistance($p1, $p2){
-        $apiKey = 'AIzaSyB2J4rtrYTg6lU62L1bAtHPGISaC7udBog';
+        $apiKey = 'nope';
         $url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=".$p1.",romania&destinations=".$p2.",romania&mode=driving&language=en-EN&sensor=false&key=".$apiKey;
         $contents = @file_get_contents($url);
         $output = json_decode($contents);
